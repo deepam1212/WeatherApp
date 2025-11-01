@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+}
+
+/* Main container */
+.app-container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    padding: 40px 50px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    width: 350px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Search section */
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.search-section input {
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 65%;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.search-section button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Result section */
+.result-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.result-section p {
+    font-size: 1.1rem;
+    margin: 6px 0;
+}
